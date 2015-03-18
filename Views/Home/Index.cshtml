@@ -1,0 +1,16 @@
+﻿@using MvcSample.Web.Models
+@model User
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Home Page";
+    string helloClass = null;
+}
+
+<div class="jumbotron">
+    <h1>Starter vNext MVC</h1>
+    <p class="lead">A starter project template vNext Mvc.</p>
+    <p><a href="https://github.com/aspnet/Home" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+<div class="row">
+    <h3 title="@Model.Name" class="@helloClass">Hello @Model.Name!</h3>
+</div>
