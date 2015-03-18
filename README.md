@@ -1,5 +1,5 @@
-#vNext Mvc Starter
-==================
+vNext Mvc Starter
+================
 Mvc starter as vNext  project.
 
 ## vNext Environment Installation
