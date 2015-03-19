@@ -13,7 +13,7 @@ The entire process of installing the new K Runtime Environment (KRE)`, `K Versio
 3. Run ```kpm restore``` to restore the packages required by that sample.
 4. You should see a bunch of output as all the dependencies of the app are downloaded from MyGet. 
 5. Run the sample using the appropriate `k` command:
-    - For the console app run  ```k run```.
-    - For the web apps run ```k web``` on Windows or ```k kestrel``` on Mono.
+    - ```k kestrel``` on Mono.
+    - ```k web``` on Windows.
 6. You should see the output of the console app or a message that says the site is now started.
 7. You can navigate to the web apps in a browser by going to "http://localhost:5001" or "http://localhost:5004" if running on Mono.
