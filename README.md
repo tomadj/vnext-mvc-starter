@@ -15,5 +15,5 @@ The entire process of installing the new K Runtime Environment (KRE)`, `K Versio
 5. Run the sample using the appropriate `k` command:
     - ```k kestrel``` on Mono.
     - ```k web``` on Windows.
-6. You should see the output of the console app or a message that says the site is now started.
+6. You should see a message that says the site is now started.
 7. You can navigate to the web apps in a browser by going to "http://localhost:5001" or "http://localhost:5004" if running on Mono.
